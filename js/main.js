@@ -17,7 +17,6 @@ toggleNavigation = function () {
     }
   })
 }
-
 toggleNavigation();
 
 closeMenu = function () {

@@ -17,3 +17,45 @@ body {
   /* Site Font */
   font-family: "Roboto";
 }
+
+
+/* Cards */
+.card-style1 {
+  background-color: rgba(39, 102, 89, 0.7);
+  color: white;
+}
+
+.card-style1-h3 {
+  background-color: rgba(43, 105, 91, 0.9);
+  text-align: center;
+  padding: 4% 2%;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.card-style1-p {
+  padding: 2% 6%;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+/* Card on Goals */
+.card-style1-h4 {
+  background-color: rgba(43, 105, 91, 0.9);
+  padding: 2% 2%;
+  text-align: center;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.card-style1-ul-wrap{
+  padding: 2% 2%;
+}
+
+.card-style1-ul {
+  margin: 0;
+  line-height: 2em;
+  font-size: 1.3em;
+}
