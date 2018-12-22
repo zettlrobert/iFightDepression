@@ -1,0 +1,19 @@
+/*Universal Box Sizing with Inheritance*/
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Body Reset*/
+body {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* Site Font */
+  font-family: "Roboto";
+}

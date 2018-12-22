@@ -1,0 +1,86 @@
+.nav-bar {
+  background-color: rgba(39, 102, 89, 0.9);
+  width: 100%;
+  /* border: 3px solid blue; */
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+}
+
+.nav-logo-container {
+  width: 60%;
+  padding: 2%;
+}
+
+.nav-logo {
+  width: 100%;
+}
+
+.nav-icon-container {
+  width: 40%;
+  padding: 2%;
+  text-align: right;
+}
+
+.nav-icon {
+  width: 40%;
+  color: white;
+}
+
+nav {
+  background-color: rgba(39, 102, 89, 0.9);
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  /* Animation */
+  transition: 0.6s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  max-height: 100%;
+}
+
+.nav-item-a {
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 2% 0%;
+  padding: 5%;
+  font-size: 2rem;
+  color: white;
+}
+
+
+/* HOME */
+.home {
+  min-height: 100vh;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 40%;
+  background-image: url("../media/backgrounds/mountainBoat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  /* background-color: rgba(54, 30, 30, 0.5); */
+  background-color: rgba(39, 102, 89, 0.4);
+  width: 100%;
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  padding: 2% 0%;
+}
+
+
+/* About */
