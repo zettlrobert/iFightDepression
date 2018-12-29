@@ -1,6 +1,7 @@
 .nav-bar {
   background-color: rgba(39, 102, 89, 0.9);
   width: 100%;
+  padding: 2%;
   /* border: 3px solid blue; */
   display: flex;
   align-items: center;
@@ -16,6 +17,9 @@
 
 .nav-logo {
   width: 100%;
+  padding: 2% 0%;
+  max-height: 80px;
+  max-width: 225px;
 }
 
 .nav-icon-container {
@@ -27,6 +31,7 @@
 .nav-icon {
   width: 40%;
   color: white;
+  padding: 2%;
 }
 
 nav {
@@ -45,19 +50,23 @@ nav {
   list-style: none;
   padding: 0;
   text-align: center;
-  max-height: 100%;
-}
-
-.nav-item-a {
-  text-decoration: none;
 }
 
 .nav-item {
-  margin: 2% 0%;
-  padding: 5%;
-  font-size: 2rem;
-  color: white;
+  display: block;
+  border: 3px solid white;
+  margin: 2%;
 }
+
+.nav-item-a {
+  display: block;
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  border: 2px solid red;
+  padding: 4%;
+}
+
 
 
 /* HOME */
@@ -90,10 +99,11 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 10vh;
   padding-bottom: 10vh;
 }
 
-.about-card-deck {
+.about-card-deck, .training-card-deck {
   padding: 4%;
   padding-top: 10vh;
 }
@@ -112,4 +122,70 @@ nav {
 
 .goals-card-deck {
   padding: 4%;
+}
+
+.headline-training {
+  text-align: center;
+  color: white;
+}
+
+.training {
+  min-height: 100vh;
+  padding-top: 10vh;
+  background-image: url("../media/backgrounds/stones.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.headline-training {
+  color: rgba(39, 102, 89, 1);
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+/* Training DROP Down */
+/* Info */
+.training-drop-down-deck {
+  padding: 4%;
+  padding-top: 10vh;
+}
+
+.training-drop-down-box {
+  background-color: rgba(43, 105, 91, 0.9);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.drop-down {
+  padding: 2%;
+  padding-right: 4%;
+  font-size: 1.5em;
+}
+
+.drop-down-content {
+  background-color: rgba(43, 105, 91, 0.6);
+  padding: 4%;
+  color: white;
+  font-size: 1.2em;
+}
+
+.team {
+  min-height: 100vh;
+  padding-top: 10vh;
+  /* background-image: url("../media/backgrounds/mist.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  padding-bottom: 20vh;
+}
+
+.teammember-h3 {
+  font-size: 1.3em;
 }
