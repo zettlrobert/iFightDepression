@@ -30,6 +30,32 @@ closeMenu = function () {
 }
 closeMenu();
 
+
+//Dropdown Boxes
+//Selectors
+let dropDownButtons = d.getElementsByClassName("drop-down");
+let dropDownContents = d.getElementsByClassName("drop-down-content");
+
+for(let i = 0; i < dropDownButtons.length; i++) {
+  dropDownButtons[i].addEventListener('click', function () {
+    let currentContentBox = dropDownContents[i];
+    //Display Content Function
+    displayContent = function () {
+      if(currentContentBox.style.visibility === "visible") {
+        currentContentBox.style.visibility = "hidden";
+        currentContentBox.style.height = "0px";
+
+      } else {
+        currentContentBox.style.visibility = "visible";
+        currentContentBox.style.height = "auto";
+      }
+    }
+    displayContent();
+
+  })
+}
+
+
 }
 //Script gets executed after page is loaded
 window.onload = init;
