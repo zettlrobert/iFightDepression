@@ -50,6 +50,7 @@ a:visited {
 .card-style1-p {
   padding: 4% 6%;
   font-size: 1.2em;
+  text-align: justify;
 }
 
 /* Card on Goals */
