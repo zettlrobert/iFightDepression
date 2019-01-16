@@ -10,10 +10,9 @@ html {
 
 /*Body Reset*/
 body {
+  position: absolute;
   padding: 0;
   margin: 0;
-  margin-left: auto;
-  margin-right: auto;
   /* Site Font */
   font-family: "Open Sans", sans-serif;
   /* font-family: "Roboto"; */
@@ -50,6 +49,7 @@ a:visited {
 .card-style1-p {
   padding: 4% 6%;
   font-size: 1.2em;
+  text-align: justify;
 }
 
 /* Card on Goals */

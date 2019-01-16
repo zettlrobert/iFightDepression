@@ -38,7 +38,7 @@
 nav {
   background-color: rgba(39, 102, 89, 0.9);
   margin-top: 10vh;
-  height: 90vh;
+  min-height: 90vh;
   width: 100%;
   position: fixed;
   top: 0;

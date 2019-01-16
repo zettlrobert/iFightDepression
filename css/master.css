@@ -10,10 +10,9 @@ html {
 
 /*Body Reset*/
 body {
+  position: absolute;
   padding: 0;
   margin: 0;
-  margin-left: auto;
-  margin-right: auto;
   /* Site Font */
   font-family: "Open Sans", sans-serif;
   /* font-family: "Roboto"; */
