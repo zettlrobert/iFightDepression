@@ -25,6 +25,7 @@ body {
 
 .anmelden {
   color: rgba(230, 42, 41, 0.9);
+  border: 2px solid transparent;
 }
 
 a:visited {

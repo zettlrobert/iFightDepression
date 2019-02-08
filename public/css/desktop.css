@@ -77,6 +77,15 @@ header {
   font-size: 2em
 }
 
+.nav-item-a:hover {
+  color: rgba(230, 42, 41, 0.9);
+  transition: 0.3s;
+}
+
+.anmelden:hover {
+  color: white;
+  transition: 0.3s;
+}
 
 /* home */
 .home {
