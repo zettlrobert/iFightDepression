@@ -3,6 +3,26 @@ function init() {
 console.log("------->Script running!");
 const d = document;
 
+//Detect User Agent(Microsoft Internet Explorer and Redirect)
+checkBrowser = function() {
+  //Detect Modern Browser
+    // !! --> Converts to boolean Value
+    // check(Regular Expression) The userAgent String for the String "Trident" oder "MSIE"
+    // is IE --> Trident TRUE || MSIE TRUE
+    let isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
+
+    if(isIE){
+      window.location.href = "http://outdatedbrowser.com/en";
+    }
+    else{
+     console.log("You are using a nice Browser");
+    }
+
+}
+checkBrowser();
+
+
+
 //Navigation
 let menuButton = d.querySelector(".nav-icon");
 let nav = d.querySelector(".m-main-nav");

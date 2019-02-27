@@ -6,18 +6,17 @@ const d = document;
 //Detect User Agent(Microsoft Internet Explorer and Redirect)
 checkBrowser = function() {
   //Detect Modern Browser
-    //@return "Netscape" for IE11, Firefox, Chrome and Safari
-  let userBrowser = navigator.appName;
-      // self.location = "http://outdatedbrowser.com/en"
+    // !! --> Converts to boolean Value
+    // check(Regular Expression) The userAgent String for the String "Trident" oder "MSIE"
+    // is IE --> Trident TRUE || MSIE TRUE
+    let isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
 
-      var isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
-
-      if(isIE){
-       alert("IE");
-      }
-      else{
-       alert("Not IE");
-      }
+    if(isIE){
+      window.location.href = "http://outdatedbrowser.com/en";
+    }
+    else{
+     console.log("You are using a nice Browser");
+    }
 
 }
 checkBrowser();
