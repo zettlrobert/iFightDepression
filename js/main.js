@@ -12,7 +12,7 @@ checkBrowser = function() {
     let isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
 
     if(isIE){
-      window.location.href = "http://outdatedbrowser.com/en";
+      window.location.href = "http://outdatedbrowser.com/de";
     }
     else{
      console.log("You are using a nice Browser");
