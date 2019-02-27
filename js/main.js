@@ -8,14 +8,16 @@ checkBrowser = function() {
   //Detect Modern Browser
     //@return "Netscape" for IE11, Firefox, Chrome and Safari
   let userBrowser = navigator.appName;
+      // self.location = "http://outdatedbrowser.com/en"
 
+      var isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
 
-  if(userBrowser != "Netscape") {
-    if (navigator.appName == 'Microsoft Internet Explorer')
-    {
-      self.location = "http://outdatedbrowser.com/en"
-    }
-  }
+      if(isIE){
+       alert("IE");
+      }
+      else{
+       alert("Not IE");
+      }
 
 }
 checkBrowser();
