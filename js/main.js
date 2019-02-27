@@ -3,6 +3,25 @@ function init() {
 console.log("------->Script running!");
 const d = document;
 
+//Detect User Agent(Microsoft Internet Explorer and Redirect)
+checkBrowser = function() {
+  //Detect Modern Browser
+    //@return "Netscape" for IE11, Firefox, Chrome and Safari
+  let userBrowser = navigator.appName;
+
+
+  if(userBrowser != "Netscape") {
+    if (navigator.appName == 'Microsoft Internet Explorer')
+    {
+      self.location = "http://outdatedbrowser.com/en"
+    }
+  }
+
+}
+checkBrowser();
+
+
+
 //Navigation
 let menuButton = d.querySelector(".nav-icon");
 let nav = d.querySelector(".m-main-nav");
