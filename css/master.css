@@ -1,0 +1,154 @@
+/*Universal Box Sizing with Inheritance*/
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Body Reset*/
+body {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  /* Site Font */
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Roboto"; */
+}
+
+/* all visitd links white */
+.anmelden:visited {
+  color: rgba(230, 42, 41, 0.9);
+}
+
+.anmelden {
+  color: rgba(230, 42, 41, 0.9);
+  border: 2px solid transparent;
+}
+
+a:visited {
+  color: white;
+}
+
+/* CARDS */
+.card-style1 {
+  background-color: rgba(43, 105, 91, 0.7);
+  color: white;
+}
+
+.card-style1-h3 {
+  background-color: rgba(43, 105, 91, 0.9);
+  text-align: center;
+  padding: 4% 2%;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.card-style1-p {
+  padding: 4% 6%;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+/* Card on Goals */
+.card-style1-h4 {
+  background-color: rgba(43, 105, 91, 0.9);
+  padding: 2% 2%;
+  text-align: center;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.card-style1-ul-wrap{
+  padding: 2% 2%;
+}
+
+.card-style1-ul {
+  margin: 0;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+
+.drop-down-box-container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+/* Button no Style */
+.drop-down {
+  background: none;
+  outline: none;
+  color: inherit;
+  border: 0;
+  padding: 0;
+  font: inherit;
+}
+
+.drop-down-content {
+  visibility: hidden;
+  height: 0;
+}
+
+.team {
+  padding: 2%;
+}
+
+.team-deck {
+  padding: 4%;
+}
+
+.teammember-wrapper {
+  background-color: rgba(43, 105, 91, 0.7);
+  padding: 2%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.team-img-wrapper {
+  background: linear-gradient(180deg, rgba(34, 85, 74, 1) 40%, transparent);
+  width: 100%;
+  padding: 2%;
+}
+
+.team-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.team-text-wrapper {
+  color: white;
+  text-align: center;
+}
+
+.teammember-h3 {
+  font-size: 1.3em;
+}
+
+footer {
+  background-color: rgba(43, 105, 91, 0.9);
+  padding: 2%;
+  margin: 0;
+}
+.footer-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.footer-ul a {
+  text-decoration: none;
+  color: white;
+  padding: 2%;
+  margin: 0;
+}
+
+.footer-ul li {
+  color: white;
+  padding: 0;
+}

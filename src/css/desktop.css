@@ -60,6 +60,7 @@ header {
 .nav-ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
   padding: 0;
 }
@@ -80,6 +81,10 @@ header {
 .nav-item-a:hover {
   color: rgba(230, 42, 41, 0.9);
   transition: 0.3s;
+}
+
+.anmelden {
+  color: rgba(230, 42, 41, 0.9);
 }
 
 .anmelden:hover {
