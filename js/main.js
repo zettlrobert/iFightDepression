@@ -21,8 +21,6 @@ checkBrowser = function() {
 }
 checkBrowser();
 
-
-
 //Navigation
 let menuButton = d.querySelector(".nav-icon");
 let nav = d.querySelector(".m-main-nav");
@@ -50,10 +48,10 @@ closeMenu = function () {
 }
 closeMenu();
 
-
 //Dropdown Boxes
 //Selectors
-let dropDownButtons = d.getElementsByClassName("drop-down");
+let dropDownButtons = d.getElementsByClassName("training-drop-down-box");
+console.log("dropDownButtons");
 let dropDownContents = d.getElementsByClassName("drop-down-content");
 
 for(let i = 0; i < dropDownButtons.length; i++) {
